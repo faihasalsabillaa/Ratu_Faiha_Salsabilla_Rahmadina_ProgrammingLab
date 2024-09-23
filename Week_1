@@ -1,0 +1,24 @@
+//Assignment 1
+//Pesudocode algorithm
+//Bookstore inventory management system
+
+Let inventory be an empty set
+Lookup if ISBN is in the bookstore’s inventory
+return true
+then
+print ”This book is already in the bookstore’s inventory”
+then
+print ”Do you want to remove this book from the inventory?”
+IF yes
+then
+remove ISBN from set inventory
+else print ”This book is not yet in the bookstore’s inventory”
+then
+print ”Do you want to add this book to the bookstore’s inventory?”
+IF yes
+then
+add ISBN to set inventory
+print ”The book has been successfully added to the bookstore’s inventory”
+else
+return false
+endif
